@@ -1,0 +1,22 @@
+{
+  "name": "unipile-ghl-middleware",
+  "version": "1.0.0",
+  "description": "Lightweight middleware that receives Unipile (LinkedIn) webhooks and forwards transformed payloads to GoHighLevel (GHL).",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "unipile",
+    "ghl",
+    "gohighlevel",
+    "linkedin",
+    "webhook",
+    "middleware"
+  ],
+  "license": "MIT"
+}
